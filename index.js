@@ -9,8 +9,8 @@ function scrollSpy(){
       let id=sec.getAttribute('id');
       if(top>=offset&&top<offset+height){
         navElements.forEach(items=>{
-          items.classList.remove('active1')
-          document.querySelector('nav ul li a[href*='+id+']').classList.add('active1')
+          items.classList.remove( 'active1' )
+          document.querySelector('nav ul li a[href*=' +id+ ']').classList.add('active1')
         })
       }
     })
