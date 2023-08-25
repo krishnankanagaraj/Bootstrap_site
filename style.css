@@ -10,6 +10,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .ff-robo{
     font-family: Roboto !important;
 }
@@ -55,6 +58,7 @@
 .gallery{
     display: grid;
     width: 95vw;
+    margin-inline:auto ;
     grid-template-areas: 
     '1 1 2 2'
     '1 1 3 3'
